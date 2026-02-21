@@ -1,0 +1,163 @@
+/* Card fixed height */
+.product-card {
+    height: 420px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Fixed image area */
+.product-img-wrapper {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+/* image control */
+.product-img-wrapper  img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+/*
+/*nav hover */
+
+.hover-bg:hover {
+  /* Hover state styles */
+  background-color: burlywood;
+}
+/*hot & happening*/
+.card-img-top {
+            height: 250px;          /* Fixed height */
+            object-fit: cover;      /* Crop image nicely */
+        }
+
+
+.image-box img {
+  width: 100%;
+  height: 250px;       /* Set same height for all */
+  object-fit: cover;   /* Crop image properly */
+}
+
+.origem-section {
+  background-color: #e8dfd6;   /* beige tone */
+}
+
+.promise-icon {
+  font-size: 40px;
+  color: #1f3d2b;              /* dark green */
+}
+
+.custom-carousel {
+    height: 50vh;              /* 30% of screen height */
+    border-radius: 20px;       /* Rounded corners */
+    overflow: hidden;          /* Prevent image overflow */
+  }
+
+  .custom-carousel .carousel-item {
+    height: 50vh;
+  }
+
+  .custom-carousel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;         /* Prevent stretching */
+  }
+
+  @media (max-width:768px) {
+    .custom-carousel, .custom-carousel .carousel-item {
+        height: 200px;
+    }
+  }
+  .height{
+     height: 40vh;
+  }
+   @media (max-width:768px) {
+    .height {
+        height: 200px;
+    }
+  }
+
+  /*footer css*/
+.footr {
+  background-color:#0a1625;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+  
+}
+
+.top-bar {
+  background: #504a28;
+  font-size: 14px;
+  padding: 0;
+}
+
+
+.logo {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.content-section {
+  padding: 50px 0;
+}
+
+h2, h3, h4 {
+  font-weight: 600;
+}
+
+.footer-section {
+  background: #0a1625;
+  padding: 0%;
+  margin: 0%;
+}
+
+.footer-section h5 ,.textcen{
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #fff
+}
+
+.footer-section a ,p{
+  text-decoration: none;
+  color: #ccc;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.offer{
+  color: #fff;
+  padding: 10px;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.divider {
+  border-top: 1px solid #334155;
+  margin: 40px 0;
+  color: white;
+}
