@@ -1,1 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dawada - India's best jewellery app</title>
+  <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- font awesome link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <!-- CSS link -->
+   <link rel="stylesheet" href="home.css">
+<!-- Bootstrap Icons Link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body>
 
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary m-0 p-0  sticky-top">
+  <div class="container-fluid bg-dark">
+    <a class="navbar-brand  text-white p-2 m-2" href="#">Dawada</a>
+    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active p-2 m-2 text-white hover-bg" aria-current="page" href="#">Rings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-white p-2 m-2 hover-bg" href="#">Earrings</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link  text-white p-2 m-2 hover-bg" href="#">Bangles</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link  text-white p-2 m-2 hover-bg" href="#">Bracelets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-white p-2 m-2 hover-bg" href="#">Necklaces</a>
+        </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white p-2 m-2 hover-bg" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More jewellery
+          </a>
+          <ul class="dropdown-menu bg-dark">
+            <li><a class="dropdown-item text-white hover-bg " href="#">Pendants</a></li>
+            <li><a class="dropdown-item text-white hover-bg" href="#">Mangalsutras</a></li>
+          </ul>
+        </li>
+         <li class="nav-item ">
+          <a class="nav-link  text-white p-2 m-2 hover-bg" href="#"><i class="fa-regular fa-heart "></i></a>
+        </li>
+         <li class="nav-item ">
+          <a class="nav-link  text-white p-2 m-2 hover-bg" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link  text-white p-2 m-2 hover-bg" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </li><li class="nav-item ">
+          <a class="nav-link  text-white p-2 m-2 hover-bg" href="#"><i class="fa-solid fa-user"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--end navbar-->
+
+<!-- Top Offer Bar -->
+<div class="top-bar offer text-center">
+  Enjoy 10% Off Your First Order – Use Code: WELCOME10
+</div>
+
+<!-- Start first screen carousel -->
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="light-weight.webp" class="d-block w-100" alt="...">
+      <a href="#" 
+           class="btn btn-outline-warning position-absolute bottom-0 start-50 translate-middle-x mb-3 ">
+           Contact Us
+        </a>
+    </div>  
+  </div>
+</div>
+<!-- end first screen carousel -->
+
+<!--start product carousel-->
+   <section class="py-4">
+<div class="container">
+<h2 class="text-center mb-4">Best Sellers</h2>
+<!-- Horizontal Scroll Row -->
+<div class="d-flex overflow-auto gap-4 scroll-container pb-3">
+    <!-- Product 1 -->
+    <div class="flex-shrink-0" style="width: 300px;">
+        <div class="card product-card border-0 shadow-sm text-center position-relative">
+            <i class="bi bi-heart position-absolute top-0 end-0 m-3 fs-5"></i>
+            <div class="product-img-wrapper">
+                <img src="Gold_Coloured_Oxidized_Jewellery-GAJ128.webp" alt="Ring 1">
+            </div>
+            <div class="card-body">
+                <h5 class="text-danger">₹ 40,129</h5>
+                <p class="text-muted mb-0">A touch of luxury for every moment</p>
+            </div>
+        </div>
+    </div>
+    <!-- Product 2 -->
+    <div class="flex-shrink-0" style="width: 300px;">
+        <div class="card product-card border-0 shadow-sm text-center position-relative">
+            <i class="bi bi-heart position-absolute top-0 end-0 m-3 fs-5"></i>
+            <div class="product-img-wrapper">
+                <img src="unsplash.avif" alt="Ring 2">
+            </div>
+            <div class="card-body">
+                <h5 class="text-danger">₹ 11,25,641</h5>
+                <p class="text-muted mb-0">Let your light shine beautifully</p>
+            </div>
+        </div>
+    </div>
+    <!-- Product 3 -->
+    <div class="flex-shrink-0" style="width: 300px;">
+        <div class="card product-card border-0 shadow-sm text-center position-relative">
+            <i class="bi bi-heart position-absolute top-0 end-0 m-3 fs-5"></i>
+            <div class="product-img-wrapper">
+                <img src="jewellery.jpg" alt="Ring 3">
+            </div>
+            <div class="card-body">
+                <h5 class="text-danger">₹ 69,439</h5>
+                <p class="text-muted mb-0">where every shine speaks your Heart</p>
+            </div>
+        </div>
+    </div>
+    <!-- Product 4  -->
+<div class="flex-shrink-0" style="width: 300px;">
+        <div class="card product-card border-0 shadow-sm text-center position-relative">
+            <i class="bi bi-heart position-absolute top-0 end-0 m-3 fs-5"></i>
+            <div class="product-img-wrapper">
+                <img src="Home.webp" alt="Ring 2">
+            </div>
+            <div class="card-body">
+                <h5 class="text-danger">₹ 11,25,641</h5>
+                <p class="text-muted mb-0">Crafted to glow with your journey</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<!-- End product carousel -->
+
+<!-- start Hot & Happening-->
+<div class="container my-4">
+  <div class="row g-4">
+    <h2 class="text-center mb-4">Hot & Happening</h2>
+
+    <div class="col-12 col-sm-6 col-lg-3">
+      <div class="position-relative image-box">
+        <img src="Home.webp" class="rounded" alt="" class="img-fluid shadow"
+       style="transition: 0.4s;"
+       onmouseenter="this.style.transform='scale(1.15)'"
+       onmouseleave="this.style.transform='scale(1)'">
+        <a href="#" 
+           class="btn btn-outline-warning position-absolute bottom-0 start-50 translate-middle-x mb-3">
+           Contact Us
+        </a>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-3">
+      <div class="position-relative image-box">
+        <img src="jewellery.jpg" class="rounded" alt="" class="img-fluid shadow"
+       style="transition: 0.4s;"
+       onmouseenter="this.style.transform='scale(1.15)'"
+       onmouseleave="this.style.transform='scale(1)'">
+        <a href="#" 
+           class="btn btn-outline-warning position-absolute bottom-0 start-50 translate-middle-x mb-3">
+           Contact Us
+        </a>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-3">
+      <div class="position-relative image-box">
+        <img src="Gold_Coloured_Oxidized_Jewellery-GAJ128.webp" class="rounded" alt="" class="img-fluid shadow"
+       style="transition: 0.4s;"
+       onmouseenter="this.style.transform='scale(1.15)'"
+       onmouseleave="this.style.transform='scale(1)'">
+        <a href="#" 
+           class="btn btn-outline-warning position-absolute bottom-0 start-50 translate-middle-x mb-3">
+           Contact Us
+        </a>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-3">
+      <div class="position-relative image-box">
+        <img src="unsplash.avif" class="rounded" alt="" class="img-fluid shadow"
+       style="transition: 0.4s;"
+       onmouseenter="this.style.transform='scale(1.15)'"
+       onmouseleave="this.style.transform='scale(1)'">
+        <a href="#" 
+           class="btn btn-outline-warning position-absolute bottom-0 start-50 translate-middle-x mb-3 ">
+           Contact Us
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end Hot & Happening-->
+
+<!-- start style files-->
+<div class="container my-4">
+  <div class="row g-4">
+    <h2 class="text-center mb-4">Style Files</h2>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="position-relative image-box">
+        <img src="Home.webp" class="rounded " alt="" class="img-fluid shadow"
+       style="transition: 0.4s;"
+       onmouseenter="this.style.transform='scale(1.15)'"
+       onmouseleave="this.style.transform='scale(1)'">
+        <a href="#" 
+           class="btn btn-outline-warning position-absolute bottom-0 start-50 translate-middle-x mb-3">
+           Contact Us
+        </a>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="position-relative image-box">
+        <img src="jewellery.jpg" class="rounded" alt="" class="img-fluid shadow"
+       style="transition: 0.4s;"
+       onmouseenter="this.style.transform='scale(1.15)'"
+       onmouseleave="this.style.transform='scale(1)'">
+        <a href="#" 
+           class="btn btn-outline-warning position-absolute bottom-0 start-50 translate-middle-x mb-3">
+           Contact Us
+        </a>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="position-relative image-box">
+        <img src="Gold_Coloured_Oxidized_Jewellery-GAJ128.webp" class="rounded" alt="" class="img-fluid shadow"
+       style="transition: 0.4s;"
+       onmouseenter="this.style.transform='scale(1.15)'"
+       onmouseleave="this.style.transform='scale(1)'">
+        <a href="#" 
+           class="btn btn-outline-warning position-absolute bottom-0 start-50 translate-middle-x mb-3">
+           Contact Us
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--end style files-->
+
+<!--start try at home-->
+<div class="container my-5">
+<div id="carouselExampleRide" class="carousel slide custom-carousel " data-bs-ride="true" data-bs-interval="30000">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img src="try_buy.webp" class="d-block w-100 " alt="...">
+    </div>
+    <div class="carousel-item ">
+      <img src="lab-grown-diamond.webp" class="d-block w-100" alt="...">
+    </div>
+    
+  </div>
+  <button class=" carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class=" carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<!--end try at home-->
+
+<!--start origem promises-->
+<section class="origem-section py-5">
+  <div class="container text-center">
+    <!-- Heading -->
+    <h2 class="mb-5 fw-semibold">Origem Promises</h2>
+    <!-- First Row (Always 2 columns) -->
+    <div class="row justify-content-center g-4">
+      
+      <div class="col-5">
+        <div class="mb-3">
+          <i class="bi bi-arrow-repeat promise-icon"></i>
+        </div>
+        <h5 class="fw-bold mb-3">15 Days Full Value Refund</h5>
+        <p class="text-muted small">
+          Claim a 15-day refund of up to ₹2 Lakh with no questions asked!
+        </p>
+      </div>
+
+      <div class="col-5">
+        <div class="mb-3">
+          <i class="bi bi-cash-coin promise-icon"></i>
+        </div>
+        <h5 class="fw-bold mb-3">Lifetime Buyback</h5>
+        <p class="text-muted small">
+          Return your Origem jewellery to us, and we will buy it back.
+        </p>
+      </div>
+
+    </div>
+    <!-- Second Row (Always Centered) -->
+    <div class="row justify-content-center mt-5">
+      <div class="col-6">
+        <div class="mb-3">
+          <i class="bi bi-patch-check promise-icon"></i>
+        </div>
+        <h5 class="fw-bold mb-3">IGI Certified</h5>
+        <p class="text-muted small">
+          All Origem jewellery are IGI certified.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--end origem promises-->
+
+<!-- Start visit us -->
+<div class="container my-5 p-3">
+  <h2 class="text-center mb-4">Visit Us</h2>
+      <img src="visit.webp" class="d-block w-100 height " alt="...">
+</div>
+<!-- end visit us -->
+
+<!-- Start Discover our stores -->
+<h2 class="text-center mb-4">Discover Our Stores</h2>
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-primary" type="button">Find Store </button>
+</div>
+<br>
+<br>
+<br>
+
+<!-- End Discover our stores -->
+
+<!--Start footer-->
+<div class="footr">
+<div class="container content-section">
+
+<h2>Why Choose Lab-Created Diamonds?</h2>
+
+<h5 class="mt-4">Exceptional Sparkle & Strength</h5>
+<p>
+Our laboratory-crafted diamonds match natural diamonds in brilliance, durability, and structure.
+Each piece is graded under strict global standards to ensure unmatched shine and reliability.
+</p>
+
+<h5>Smarter Pricing</h5>
+<p>
+Enjoy premium quality at a significantly better value. Lab diamonds typically cost less
+than traditionally mined stones, allowing you to select larger or more refined designs
+without exceeding your budget.
+</p>
+
+<h5>Modern Design Collection</h5>
+<ul>
+  <li>Classic solitaire creations</li>
+  <li>Elegant halo-inspired styles</li>
+  <li>Contemporary clustered settings</li>
+</ul>
+
+<p>
+All jewellery is crafted in 14kt and 18kt white, rose, and yellow gold with certified purity.
+</p>
+
+<h5>Visually Identical to Natural Diamonds</h5>
+<p>
+From appearance to performance, lab-grown diamonds are indistinguishable from mined stones.
+They deliver identical fire, clarity, and long-term brilliance.
+</p>
+
+<div class="divider"></div>
+
+<h3>Explore Our Signature Collections</h3>
+
+<p><strong>Diamond Rings:</strong> From timeless elegance to bold statement pieces.</p>
+<p><strong>Diamond Earrings:</strong> Minimal studs to modern drop styles.</p>
+<p><strong>Diamond Necklaces:</strong> Refined pendants and tennis chains.</p>
+<p><strong>Diamond Bracelets:</strong> Sophisticated designs for daily wear.</p>
+<p><strong>Diamond Bangles:</strong> Classic craftsmanship with a contemporary touch.</p>
+
+<div class="divider"></div>
+
+<h3>Frequently Asked Questions</h3>
+
+<p><strong>1. What makes lab diamonds different?</strong><br>
+They are created using advanced technology that replicates natural diamond formation,
+offering the same physical and optical properties.
+</p>
+
+<p><strong>2. Are they certified?</strong><br>
+Yes, every piece is verified and graded by recognized institutions ensuring quality and transparency.
+</p>
+
+<p><strong>3. Are they suitable for daily wear?</strong><br>
+Absolutely. With identical hardness to natural diamonds, they are perfect for everyday elegance.
+</p>
+
+<p><strong>4. Do they lose brilliance over time?</strong><br>
+No. With proper care, lab diamonds retain their sparkle for decades.
+</p>
+
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer-section">
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-3 col-6">
+      <h5>About</h5>
+      <a href="#">Our Journey</a>
+      <a href="#">Ethical Sourcing</a>
+      <a href="#">Sustainability</a>
+    </div>
+
+    <div class="col-md-3 col-6">
+      <h5>Collections</h5>
+      <a href="#">Rings</a>
+      <a href="#">Earrings</a>
+      <a href="#">Bracelets</a>
+      <a href="#">Necklaces</a>
+    </div>
+
+    <div class="col-md-3 col-6 mt-4 mt-md-0">
+      <h5>Support</h5>
+      <a href="#">Track Order</a>
+      <a href="#">Returns</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+
+    <div class="col-md-3 col-6 mt-4 mt-md-0">
+      <h5>Contact</h5>
+      <p>Email: support@lumora.com</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Mon – Fri | 10am – 6pm</p>
+    </div>
+
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="text-center textcen pt-0 pb-3">
+    © 2026 Lumora Diamonds. All Rights Reserved.
+  </div>
+
+</div>
+</div>
+
+<!-- WhatsApp Button -->
+<a href="#" class="whatsapp-btn">
+  <i class="bi bi-whatsapp"></i>
+</a>
+<!--End footer-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
